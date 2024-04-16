@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+ 
+  body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+
+  main {
+    display: block;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  a {
+    background-color: transparent;
+    text-decoration: none;
+    color: rgba(253, 248, 238, 0.89);
+  }
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  
+  small {
+    font-size: 80%;
+  }
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  img {
+    border-style: none;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  textarea {
+    overflow: auto;
+  }
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+
+  details {
+    display: block;
+  }
+  
+  summary {
+    display: list-item;
+  }
+  template {
+    display: none;
+  }
+  
+  [hidden] {
+    display: none;
+  }
+#maintext{
+    display: flex;
+    justify-content: center;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-top: 140px;
+}
+header{
+  background-color: rgba(0, 0, 0, 0.74);
+  background-image: url(/img/pirate-sail-2048x1152.jpg);
+  background-size:100% 1000px; ;
+  height: 900px;
+  
+  box-sizing: border-box;
+  
+  
+}
+
+
+#logo{
+padding: 40px;
+
+  box-sizing: border-box;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+
+}
+#nav{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+  font-size: 28px;
+  padding-top: 85px;
+  gap: 30px;
+}
+body{
+  background: linear-gradient( #122629, #206a81);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  
+}
+#mainText{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 75px;
+ 
+}
+#main{
+  max-width: 1200px;
+  
+  margin-top: 60px;
+  
+}
+main{
+  display: flex;
+  justify-content: space-around;
+  
+}
+#img{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 350px;
+  margin-top: 80px;
+  opacity: 0.4;
+}
+#flexbox{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+#flexbox1{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 600px;
+}
+#center{
+  text-align: center;
+  margin-bottom: 75px;
+
+}
+footer{
+  background-color: #1b444b;
+  height: 350px;
+}
+#footer{
+  display: flex;
+  gap: 180px;
+  justify-content: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+#aling{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+#Text{
+  color: #000000;
+  font-size: 25px
+
+}
+#Text1{
+  color: #a09e9e;
+}
+#footerpirat{
+  font-size: 28px;
+  color: #000000;
+}
+#aling1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#lin{
+  border: solid 2px rgba(114, 113, 113, 0.582);
+  
+}
+#flexfooter{
+  display: flex;
+  justify-content: space-between;
+ 
+ width: 180px;
+}   
+#aling2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 80px;
+}
+#maintext2{
+  text-align:left ;
+  font-size: 28px;
+}
+.swiper{
+  width: 800px;
+  height: 100%;
+  
+}
+.swiper-slide{
+  text-align: center;
+  font-size: 18px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img{
+  width: 58%;
+  object-fit: cover;
+  background-color: #000000;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+  right: 500px !important;
+  margin-top: 3100px !important; 
+  left: auto;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+  left: 500px !important; 
+  right: auto;
+  margin-top: 3100px !important;
+}
+.swiper-slide{
+  background-color: #000000;
+ display: inline !important;
+}
+
+.image-slider .swiper-pagination-bullet{
+
+  background-color: aliceblue;
+}
+
+@media(max-width:1440px) {
+  #img{
+    display: none;
+  }
+  #nav{
+    flex-wrap: wrap;
+  }
+  #main{
+    max-width: 1200px;
+  }
+}
+@media (max-width:1200px) {
+  #img{
+    display: none;
+  }
+  #nav{
+    flex-wrap: wrap;
+  }
+  #main{
+    max-width: 1000px;
+  }
+}
+#footer1{
+  display: flex;
+  gap: 180px;
+  justify-content: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+#gameArea{
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 15px;
+}
+#gameArea .pcGameArea, #gameArea .userGameArea{
+    width: 50%;
+    float:left;
+    margin: 0 0 15px 0;
+    padding:0;
+    display: block;
+    margin-bottom: 20px;
+}
+#gameArea .gameField{
+    margin: 5px 15px 0 0;
+    display: block;
+    padding:0;
+}
+#gameArea .gameField div{
+    margin: -1px;
+    display: block;
+    position: relative;
+    float: left;
+    background-color: #fcfcfc;
+    border: 1px solid #a7ddf5;
+    text-align: center;
+    color: #F44336;
+}
+#gameArea .gameField div .badge{
+    font-size: 2em;
+    color: #F44336;
+}
+#gameArea .gameField .ship{
+    background-color: #7bc4ff;
+}
+#gameArea .btn{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #357ebd;
+    white-space: nowrap;
+    padding: 6px 12px;
+    line-height: 1.4;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #428bca;
+}
+
+.toolbar{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 75px;
+}
+.btn{
+   margin-left: 75px;
+}
+#gameArea{
+    width: 364px;
+    height: 364px;
+    margin-bottom: 200px;
+}

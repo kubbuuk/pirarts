@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>пираты в истории и литературе</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/202202102032404.jpg">
+</head>
+<body>
+    <header>
+        <div id="logo"><img src="/img/pngwing.com.png" alt="" width="46">mtsv</div>
+        <div id="maintext"> морсокой бой</div>
+        <nav id="nav"> 
+            <div><a href="/piratskySlovar/index.html">пиратский кодекс</a></div>
+            <div><a href="/index.html">пираты в истории и литературе</a></div>
+            <div><a href="/game/index.html">морсокой бойизвестные пираты</a></div>
+            <div><a href="/literatura/index.html">литература про пиратов</a></div>
+        </nav>
+    </header>
+    <main>
+        <div id="img">
+            <img src="/img/transparent-headgear-t-shirt-skull-cap-bone-printed-vinyl-cross-sword-skull-stickers-factory5d6a15b1c6efa8.0147916515672334578149.png" alt="">
+           
+            
+        </div>
+        <div>   
+            <div id="gameArea">
+                <div class="footer htmlpreview-fallback">
+                    <button class="btn" onclick="runGame(true)">Начать игру</button>
+                </div>
+            </div>
+        </div>
+        <div id="img">
+            <img src="/img/transparent-headgear-t-shirt-skull-cap-bone-printed-vinyl-cross-sword-skull-stickers-factory5d6a15b1c6efa8.0147916515672334578149.png" alt="">
+            
+            
+        </div>
+        
+       
+    </main>
+    <footer>
+        <div id="footer1">
+            <div id="aling1" >
+                <div id="footerpirat">
+                    <div>пираты в историии</div>
+                    <div>и летературе</div>
+                </div>
+
+            </div>
+            <div id="lin"></div>
+            <div id="aling2">
+                <img src="/img/pngwing.com (2).png" alt="" width="70px">
+                <div id="Text">mail</div>
+                <div id="Text1">mitiasov5@yandex.ru</div>
+                <div id="flexfooter">
+                    <a href=""><img src="/img/pngwing.com (6).png" alt=""width="50"></a>
+
+                    <a href=""><img src="/img/pngwing.com (7).png" alt=""width="50"></a>
+                    <a href=""><img src="/img/pngwing.com (8).png" alt=""width="50"></a>
+                </div>
+                
+            </div>
+            <div id="lin"></div>
+            <div id="aling">
+                <img src="/img/pngwing.com (3).png" alt="" width="70px">
+                <div id="Text">tel</div>
+                <div id="Text1">+7 913 385 90 62</div>
+            </div>
+           
+        </div> 
+        
+           
+           
+    </footer>
+    <script src="/game/index.js"></script>
+<script>
+        function runGame(startImmediatly) {
+             var game = new SeeBattle('gameArea');
+             game.run();
+
+             // fallback для htmlpreview
+             if (startImmediatly) {
+                game.startNewGame();
+             }
+        }
+        </script>
+    </body>
+</html>
